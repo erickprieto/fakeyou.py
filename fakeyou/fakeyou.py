@@ -312,9 +312,6 @@ class FakeYou():
         """
         ijt = self.make_w2l_job(file, template_token)
         return self.w2l_poll(ijt)
-	
-class FakeYou:
-    # ... [Previous code and methods]
 
     def w2l(self, audio_id, video_id):
         """
